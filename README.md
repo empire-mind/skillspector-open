@@ -1,5 +1,7 @@
 # skillspector-open — the skill supply-chain scanner
 
+English | [简体中文](README.zh-CN.md)
+
 Your agent loads skills. Skills are unsigned code that runs with your API
 keys. This repo is building the open, deterministic, static-only scanner
 that grades them — **and publishes its own false-positive audit**, because
