@@ -23,7 +23,7 @@ jobs:
           git fetch -q --depth 1 origin "${SCAN_REF}"
           git checkout -q --detach "${EVENT_SHA}"
       - name: install pytest
-        run: python3 -m pip install -q --break-system-externally pytest
+        run: python3 -m pip install -q pytest
       - name: pytest
         run: cd repo && python3 -m pytest tests/ -q
       - name: sample scan must fire HIGH (exit 1 by design)
