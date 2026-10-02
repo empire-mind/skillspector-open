@@ -1,4 +1,5 @@
 """Sample project with deliberate AI-slop signals — scan it and see what fires."""
+
 import json
 
 

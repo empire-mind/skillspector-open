@@ -14,6 +14,8 @@ Expected findings (verify against your run):
 - `HIGH unimplemented_stub` — `raise NotImplementedError` in `delete_config`
 - `MED todo_density` — 4 TODOs in `load_config`
 - `MED placeholder` — the `...` in `delete_config`
+- `MED curl_pipe_shell` — pipe to shell execution in `install.sh` and `SKILL.md`
+- `MED remote_fetch` — remote URL fetches in `install.sh` and `SKILL.md` (distinguished from benign doc links)
 
 Exit code will be `1` because HIGH findings are present. That's the point:
 this fixture is the "does the scanner actually fire" smoke test.
